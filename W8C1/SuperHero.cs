@@ -5,7 +5,7 @@ using System.Text;
 
 namespace W8C1
 {
-    public class SuperHero : Human, IHasKarma
+    public class SuperHero : SuperHuman, IHasKarma
     {
         private int karma;
 
@@ -20,15 +20,9 @@ namespace W8C1
             }
         }
 
-        public SuperHero(string name) : base(name)
+        public SuperHero(string name, int karma) : base(name)
         {
-            
-        }
-        
-        // Must have because of parent class
-        public override void DisplaySkills()
-        {
-            Console.WriteLine("Not Implemented");
+            this.Karma = karma;
         }
     }
 }

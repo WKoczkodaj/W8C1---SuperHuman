@@ -14,11 +14,12 @@ namespace W8C1
     {
         static void Main(string[] args)
         {
-            SuperHuman superhuman = new SuperHuman("SuperDude");
-            superhuman.AddPower("Electricity Manipulation", 6);
+            SuperHero superhuman = new SuperHero("SuperDude", 5);
+            superhuman.Powers.Add(new Power("Electricity Manipulation", 6));
             //superhuman.DisplayPowers();
 
             Console.WriteLine(superhuman.ToString());
+            Console.WriteLine("Karma: " + superhuman.Karma);
         }
     }
 }
