@@ -16,7 +16,9 @@ namespace W8C1
         {
             SuperHuman superhuman = new SuperHuman("SuperDude");
             superhuman.AddPower("Electricity Manipulation", 6);
-            superhuman.DisplayPowers();
+            //superhuman.DisplayPowers();
+
+            Console.WriteLine(superhuman.ToString());
         }
     }
 }

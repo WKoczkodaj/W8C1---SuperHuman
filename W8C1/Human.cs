@@ -40,7 +40,7 @@ namespace W8C1
         // Private Methods
 
         // Public Methods
-
+        public abstract void DisplaySkills();
     }
 
 }

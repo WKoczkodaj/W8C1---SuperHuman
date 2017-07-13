@@ -15,10 +15,13 @@ namespace W8C1
                 return this.powers;
             }
         }
+
+
         public SuperHuman(string name) : base(name)
         {
             this.Initialize();
         }
+
 
         private void Initialize()
         {
@@ -29,7 +32,7 @@ namespace W8C1
         {
            this.Powers.Add(new Power(name, rank));
         }
-
+        /*
         public void DisplayPowers()
         {
             foreach (var i in Powers)
@@ -37,19 +40,26 @@ namespace W8C1
                 Console.WriteLine("Power: " + i.Name + "\tRank: " + i.Rank);
             }
         }
+        */
 
         public override string ToString()
         {
             string outputstring = "";
-            outputstring += "****************\n" + "Name:" + Name;
+            outputstring += "****************\n" + "Name: " + Name;
 
             foreach (var i in Powers)
             {
-                outputstring += ("Power: " + i.Name + "\tRank: " + i.Rank);
+                outputstring += (" Power: " + i.Name + "\tRank: " + i.Rank + "\n");
             }
 
+            outputstring += "****************\n";
             return outputstring;
 
+        }
+
+        public override void DisplaySkills()
+        {
+            Console.WriteLine("Not Implemented");
         }
     }
 }
