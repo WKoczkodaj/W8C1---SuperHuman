@@ -40,6 +40,7 @@ namespace W8C1
         // Private Methods
 
         // Public Methods
+        // All Sub-classes Must have anything with abstract
         public abstract void DisplaySkills();
     }
 

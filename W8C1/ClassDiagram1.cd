@@ -21,6 +21,14 @@
       <FileName>Power.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="W8C1.SuperHero">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>SuperHero.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Interface Name="W8C1.IHasKarma">
     <Position X="2.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
