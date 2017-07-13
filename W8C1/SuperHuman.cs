@@ -45,11 +45,11 @@ namespace W8C1
         public override string ToString()
         {
             string outputstring = "";
-            outputstring += "****************\n" + "Name: " + Name;
+            outputstring += "****************\n" + "Name: " + Name + "\n";
 
             foreach (var i in Powers)
             {
-                outputstring += (" Power: " + i.Name + "\tRank: " + i.Rank + "\n");
+                outputstring += (" Power: " + i.Name + "  Rank: " + i.Rank + "\n");
             }
 
             outputstring += "****************\n";
